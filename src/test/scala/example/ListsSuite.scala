@@ -103,15 +103,7 @@ import org.scalatest.junit.JUnitRunner
 
 
   /**
-   * We only provide two very basic tests for you. Write more tests to make
-   * sure your `sum` and `max` methods work as expected.
-   *
-   * In particular, write tests for corner cases: negative numbers, zeros,
-   * empty lists, lists with repeated elements, etc.
-   *
-   * It is allowed to have multiple `assert` statements inside one test,
-   * however it is recommended to write an individual `test` statement for
-   * every tested aspect of a method.
+    * My tests.
    */
   test("sum of a few numbers") {
     assert(sum(List(1,2,0)) === 3)

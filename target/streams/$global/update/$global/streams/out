@@ -1,4 +1,4 @@
-[info] Updating {file:/Users/jdehlinger/Desktop/example/}root...
+[info] Updating {file:/Users/jdehling/Documents/My%20Programming/Scala/coursera-funprog-scala/example-assignment/}root...
 [debug] :: resolving dependencies :: progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
@@ -7,9 +7,22 @@
 [debug] == resolving dependencies for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT [compile]
 [debug] == resolving dependencies progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@730fac6
-[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.7
-[debug] 	found org.scala-lang#scala-library;2.11.7 in sbt-chain
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@38f5030e
+[info] Resolving org.scala-lang#scala-library;2.11.7 ...
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@38f5030e
+[debug] 		tried /Users/jdehling/.ivy2/local/org.scala-lang/scala-library/2.11.7/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.scala-lang#scala-library;2.11.7
+[debug] 		tried https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom
+[debug] 	jcenter: found md file for org.scala-lang#scala-library;2.11.7
+[debug] 		=> https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom (2.11.7)
+[debug] downloading https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom
+[debug] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.11.7!scala-library.pom(pom.original) (239ms)
+[debug] 		tried /Users/jdehling/.ivy2/local/org.scala-lang/scala-library/2.11.7/jars/scala-library.jar
+[debug] 		tried https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar
+[debug] 	found org.scala-lang#scala-library;2.11.7 in jcenter
 [debug] 	[2.11.7] org.scala-lang#scala-library;2.11.7
 [debug] == resolving dependencies progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime]
 [debug] == resolving dependencies progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile]
@@ -17,8 +30,21 @@
 [debug] == resolving dependencies progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->default(compile)]
 [info] Resolving org.scalatest#scalatest_2.11;2.2.4 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.11;2.2.4 {compile=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: org.scalatest#scalatest_2.11;2.2.4
-[debug] 	found org.scalatest#scalatest_2.11;2.2.4 in sbt-chain
+[info] Resolving org.scalatest#scalatest_2.11;2.2.4 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.scalatest#scalatest_2.11;2.2.4 {compile=[default(compile)]}
+[debug] 		tried /Users/jdehling/.ivy2/local/org.scalatest/scalatest_2.11/2.2.4/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.scalatest#scalatest_2.11;2.2.4
+[debug] 		tried https://jcenter.bintray.com/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.pom
+[debug] 	jcenter: found md file for org.scalatest#scalatest_2.11;2.2.4
+[debug] 		=> https://jcenter.bintray.com/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.pom (2.2.4)
+[debug] downloading https://jcenter.bintray.com/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.pom
+[debug] 	[SUCCESSFUL ] org.scalatest#scalatest_2.11;2.2.4!scalatest_2.11.pom(pom.original) (237ms)
+[debug] 		tried /Users/jdehling/.ivy2/local/org.scalatest/scalatest_2.11/2.2.4/bundles/scalatest_2.11.jar
+[debug] 		tried https://jcenter.bintray.com/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.jar
+[debug] 	found org.scalatest#scalatest_2.11;2.2.4 in jcenter
 [debug] == resolving dependencies progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->runtime]
 [debug] == resolving dependencies progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->compile]
 [debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->master(compile)]
@@ -28,8 +54,21 @@
 [debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->master(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.11.2 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.2
-[debug] 	found org.scala-lang#scala-reflect;2.11.2 in sbt-chain
+[info] Resolving org.scala-lang#scala-reflect;2.11.2 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /Users/jdehling/.ivy2/local/org.scala-lang/scala-reflect/2.11.2/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.scala-lang#scala-reflect;2.11.2
+[debug] 		tried https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.pom
+[debug] 	jcenter: found md file for org.scala-lang#scala-reflect;2.11.2
+[debug] 		=> https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.pom (2.11.2)
+[debug] downloading https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.pom
+[debug] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.2!scala-reflect.pom(pom.original) (223ms)
+[debug] 		tried /Users/jdehling/.ivy2/local/org.scala-lang/scala-reflect/2.11.2/jars/scala-reflect.jar
+[debug] 		tried https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.jar
+[debug] 	found org.scala-lang#scala-reflect;2.11.2 in jcenter
 [debug] 	[2.11.2] org.scala-lang#scala-reflect;2.11.2
 [debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->master(compile)]
@@ -182,15 +221,60 @@
 [debug] == resolving dependencies progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test->default(compile)]
 [info] Resolving junit#junit;4.10 ...
 [debug] sbt-chain: Checking cache for: dependency: junit#junit;4.10 {test=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: junit#junit;4.10
-[debug] 	found junit#junit;4.10 in sbt-chain
+[info] Resolving junit#junit;4.10 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: junit#junit;4.10 {test=[default(compile)]}
+[debug] 		tried /Users/jdehling/.ivy2/local/junit/junit/4.10/ivys/ivy.xml
+[debug] 	local: no ivy file found for junit#junit;4.10
+[debug] 		tried https://jcenter.bintray.com/junit/junit/4.10/junit-4.10.pom
+[debug] 	jcenter: found md file for junit#junit;4.10
+[debug] 		=> https://jcenter.bintray.com/junit/junit/4.10/junit-4.10.pom (4.10)
+[debug] downloading https://jcenter.bintray.com/junit/junit/4.10/junit-4.10.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/junit/junit/4.10/junit-4.10.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/junit/junit/4.10/junit-4.10.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/junit/junit/4.10/junit-4.10.pom
+[debug] 	[SUCCESSFUL ] junit#junit;4.10!junit.pom(pom.original) (225ms)
+[debug] 		tried /Users/jdehling/.ivy2/local/junit/junit/4.10/jars/junit.jar
+[debug] 		tried https://jcenter.bintray.com/junit/junit/4.10/junit-4.10.jar
+[debug] 	found junit#junit;4.10 in jcenter
 [debug] == resolving dependencies progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test->runtime]
 [debug] == resolving dependencies progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test->compile]
 [debug] == resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [compile->master(compile)]
 [info] Resolving org.hamcrest#hamcrest-core;1.1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.hamcrest#hamcrest-core;1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.hamcrest#hamcrest-core;1.1
-[debug] 	found org.hamcrest#hamcrest-core;1.1 in sbt-chain
+[info] Resolving org.hamcrest#hamcrest-core;1.1 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.hamcrest#hamcrest-core;1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /Users/jdehling/.ivy2/local/org.hamcrest/hamcrest-core/1.1/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.hamcrest#hamcrest-core;1.1
+[debug] 		tried https://jcenter.bintray.com/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom
+[debug] 	jcenter: found md file for org.hamcrest#hamcrest-core;1.1
+[debug] 		=> https://jcenter.bintray.com/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom (1.1)
+[debug] downloading https://jcenter.bintray.com/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom
+[debug] 	[SUCCESSFUL ] org.hamcrest#hamcrest-core;1.1!hamcrest-core.pom(pom.original) (230ms)
+[info] Resolving org.hamcrest#hamcrest-parent;1.1 ...
+[debug] sbt-chain: Checking cache for: dependency: org.hamcrest#hamcrest-parent;1.1 {}
+[info] Resolving org.hamcrest#hamcrest-parent;1.1 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.hamcrest#hamcrest-parent;1.1 {}
+[debug] 		tried /Users/jdehling/.ivy2/local/org.hamcrest/hamcrest-parent/1.1/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.hamcrest#hamcrest-parent;1.1
+[debug] 		tried https://jcenter.bintray.com/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom
+[debug] 	jcenter: found md file for org.hamcrest#hamcrest-parent;1.1
+[debug] 		=> https://jcenter.bintray.com/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom (1.1)
+[debug] downloading https://jcenter.bintray.com/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom
+[debug] 	[SUCCESSFUL ] org.hamcrest#hamcrest-parent;1.1!hamcrest-parent.pom(pom.original) (232ms)
+[debug] 		tried /Users/jdehling/.ivy2/local/org.hamcrest/hamcrest-parent/1.1/jars/hamcrest-parent.jar
+[debug] 		tried https://jcenter.bintray.com/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.jar
+[debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.jar
+[debug] 		tried /Users/jdehling/.ivy2/local/org.hamcrest/hamcrest-core/1.1/jars/hamcrest-core.jar
+[debug] 		tried https://jcenter.bintray.com/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar
+[debug] 	found org.hamcrest#hamcrest-core;1.1 in jcenter
 [debug] == resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [compile->compile(*)]
 [debug] == resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [compile->runtime(*)]
 [debug] == resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [compile->compile]
@@ -380,8 +464,21 @@
 [debug] == resolving dependencies progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [scala-tool->default]
 [info] Resolving org.scala-lang#scala-compiler;2.11.7 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.7 {scala-tool=[default, optional(default)]}
-[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.7
-[debug] 	found org.scala-lang#scala-compiler;2.11.7 in sbt-chain
+[info] Resolving org.scala-lang#scala-compiler;2.11.7 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.7 {scala-tool=[default, optional(default)]}
+[debug] 		tried /Users/jdehling/.ivy2/local/org.scala-lang/scala-compiler/2.11.7/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.scala-lang#scala-compiler;2.11.7
+[debug] 		tried https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.pom
+[debug] 	jcenter: found md file for org.scala-lang#scala-compiler;2.11.7
+[debug] 		=> https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.pom (2.11.7)
+[debug] downloading https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.pom
+[debug] 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.11.7!scala-compiler.pom(pom.original) (229ms)
+[debug] 		tried /Users/jdehling/.ivy2/local/org.scala-lang/scala-compiler/2.11.7/jars/scala-compiler.jar
+[debug] 		tried https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.jar
+[debug] 	found org.scala-lang#scala-compiler;2.11.7 in jcenter
 [debug] == resolving dependencies progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [scala-tool->runtime]
 [debug] == resolving dependencies progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [scala-tool->compile]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
@@ -453,30 +550,60 @@
 [debug] == resolving dependencies progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [scala-tool->optional(default)]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.7!scala-library.jar
-[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.11;2.2.4!scalatest_2.11.jar(bundle)
+[debug] 		tried https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar
+[info] downloading https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.11.7!scala-library.jar (975ms)
+[debug] 		tried https://jcenter.bintray.com/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.jar
+[info] downloading https://jcenter.bintray.com/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.jar
+[info] 	[SUCCESSFUL ] org.scalatest#scalatest_2.11;2.2.4!scalatest_2.11.jar(bundle) (1473ms)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(bundle)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.2!scala-reflect.jar
+[debug] 		tried https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.jar
+[info] downloading https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.2!scala-reflect.jar (670ms)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar(bundle)
-[debug] 	[NOT REQUIRED] junit#junit;4.10!junit.jar
-[debug] 	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.1!hamcrest-core.jar
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.7!scala-compiler.jar
+[debug] 		tried https://jcenter.bintray.com/junit/junit/4.10/junit-4.10.jar
+[info] downloading https://jcenter.bintray.com/junit/junit/4.10/junit-4.10.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/junit/junit/4.10/junit-4.10.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/junit/junit/4.10/junit-4.10.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/junit/junit/4.10/junit-4.10.jar
+[info] 	[SUCCESSFUL ] junit#junit;4.10!junit.jar (332ms)
+[debug] 		tried https://jcenter.bintray.com/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar
+[info] downloading https://jcenter.bintray.com/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar
+[info] 	[SUCCESSFUL ] org.hamcrest#hamcrest-core;1.1!hamcrest-core.jar (301ms)
+[debug] 		tried https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.jar
+[info] downloading https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.11.7!scala-compiler.jar (1468ms)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.7!scala-reflect.jar
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar
-[debug] :: resolution report :: resolve 1044ms :: artifacts dl 117ms
-[debug] 	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT compile produced in /Users/jdehlinger/Desktop/example/target/resolution-cache/reports/progfun1-example-progfun1-example_2.11-compile.xml
-[debug] 	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT runtime produced in /Users/jdehlinger/Desktop/example/target/resolution-cache/reports/progfun1-example-progfun1-example_2.11-runtime.xml
-[debug] 	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT test produced in /Users/jdehlinger/Desktop/example/target/resolution-cache/reports/progfun1-example-progfun1-example_2.11-test.xml
-[debug] 	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT provided produced in /Users/jdehlinger/Desktop/example/target/resolution-cache/reports/progfun1-example-progfun1-example_2.11-provided.xml
-[debug] 	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT optional produced in /Users/jdehlinger/Desktop/example/target/resolution-cache/reports/progfun1-example-progfun1-example_2.11-optional.xml
-[debug] 	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT compile-internal produced in /Users/jdehlinger/Desktop/example/target/resolution-cache/reports/progfun1-example-progfun1-example_2.11-compile-internal.xml
-[debug] 	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT runtime-internal produced in /Users/jdehlinger/Desktop/example/target/resolution-cache/reports/progfun1-example-progfun1-example_2.11-runtime-internal.xml
-[debug] 	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT test-internal produced in /Users/jdehlinger/Desktop/example/target/resolution-cache/reports/progfun1-example-progfun1-example_2.11-test-internal.xml
-[debug] 	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT plugin produced in /Users/jdehlinger/Desktop/example/target/resolution-cache/reports/progfun1-example-progfun1-example_2.11-plugin.xml
-[debug] 	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT sources produced in /Users/jdehlinger/Desktop/example/target/resolution-cache/reports/progfun1-example-progfun1-example_2.11-sources.xml
-[debug] 	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT docs produced in /Users/jdehlinger/Desktop/example/target/resolution-cache/reports/progfun1-example-progfun1-example_2.11-docs.xml
-[debug] 	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT pom produced in /Users/jdehlinger/Desktop/example/target/resolution-cache/reports/progfun1-example-progfun1-example_2.11-pom.xml
-[debug] 	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT scala-tool produced in /Users/jdehlinger/Desktop/example/target/resolution-cache/reports/progfun1-example-progfun1-example_2.11-scala-tool.xml
-[debug] 	resolve done (1044ms resolve - 117ms download)
+[debug] :: resolution report :: resolve 4284ms :: artifacts dl 5235ms
+[debug] 	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT compile produced in /Users/jdehling/Documents/My Programming/Scala/coursera-funprog-scala/example-assignment/target/resolution-cache/reports/progfun1-example-progfun1-example_2.11-compile.xml
+[debug] 	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT runtime produced in /Users/jdehling/Documents/My Programming/Scala/coursera-funprog-scala/example-assignment/target/resolution-cache/reports/progfun1-example-progfun1-example_2.11-runtime.xml
+[debug] 	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT test produced in /Users/jdehling/Documents/My Programming/Scala/coursera-funprog-scala/example-assignment/target/resolution-cache/reports/progfun1-example-progfun1-example_2.11-test.xml
+[debug] 	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT provided produced in /Users/jdehling/Documents/My Programming/Scala/coursera-funprog-scala/example-assignment/target/resolution-cache/reports/progfun1-example-progfun1-example_2.11-provided.xml
+[debug] 	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT optional produced in /Users/jdehling/Documents/My Programming/Scala/coursera-funprog-scala/example-assignment/target/resolution-cache/reports/progfun1-example-progfun1-example_2.11-optional.xml
+[debug] 	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT compile-internal produced in /Users/jdehling/Documents/My Programming/Scala/coursera-funprog-scala/example-assignment/target/resolution-cache/reports/progfun1-example-progfun1-example_2.11-compile-internal.xml
+[debug] 	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT runtime-internal produced in /Users/jdehling/Documents/My Programming/Scala/coursera-funprog-scala/example-assignment/target/resolution-cache/reports/progfun1-example-progfun1-example_2.11-runtime-internal.xml
+[debug] 	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT test-internal produced in /Users/jdehling/Documents/My Programming/Scala/coursera-funprog-scala/example-assignment/target/resolution-cache/reports/progfun1-example-progfun1-example_2.11-test-internal.xml
+[debug] 	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT plugin produced in /Users/jdehling/Documents/My Programming/Scala/coursera-funprog-scala/example-assignment/target/resolution-cache/reports/progfun1-example-progfun1-example_2.11-plugin.xml
+[debug] 	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT sources produced in /Users/jdehling/Documents/My Programming/Scala/coursera-funprog-scala/example-assignment/target/resolution-cache/reports/progfun1-example-progfun1-example_2.11-sources.xml
+[debug] 	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT docs produced in /Users/jdehling/Documents/My Programming/Scala/coursera-funprog-scala/example-assignment/target/resolution-cache/reports/progfun1-example-progfun1-example_2.11-docs.xml
+[debug] 	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT pom produced in /Users/jdehling/Documents/My Programming/Scala/coursera-funprog-scala/example-assignment/target/resolution-cache/reports/progfun1-example-progfun1-example_2.11-pom.xml
+[debug] 	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT scala-tool produced in /Users/jdehling/Documents/My Programming/Scala/coursera-funprog-scala/example-assignment/target/resolution-cache/reports/progfun1-example-progfun1-example_2.11-scala-tool.xml
+[debug] 	resolve done (4284ms resolve - 5235ms download)
 [info] Done updating.

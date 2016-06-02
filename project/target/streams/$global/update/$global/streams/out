@@ -1,17 +1,40 @@
-[info] Updating {file:/Users/jdehlinger/Desktop/example/project/}example-build...
-[debug] :: resolving dependencies :: default#example-build;0.1-SNAPSHOT
+[info] Updating {file:/Users/jdehling/Documents/My%20Programming/Scala/coursera-funprog-scala/example-assignment/project/}example-assignment-build...
+[debug] :: resolving dependencies :: default#example-assignment-build;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
 [debug] 	refresh = false
 [debug] resolving dependencies for configuration 'compile'
-[debug] == resolving dependencies for default#example-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)]
+[debug] == resolving dependencies for default#example-assignment-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)]
 [info] Resolving org.scalastyle#scalastyle_2.10;0.8.0 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scalastyle#scalastyle_2.10;0.8.0 {compile=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: org.scalastyle#scalastyle_2.10;0.8.0
-[debug] 	found org.scalastyle#scalastyle_2.10;0.8.0 in sbt-chain
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->runtime]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->compile]
+[info] Resolving org.scalastyle#scalastyle_2.10;0.8.0 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.scalastyle#scalastyle_2.10;0.8.0 {compile=[default(compile)]}
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scalastyle/scalastyle_2.10/0.8.0/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scalastyle/scalastyle_2.10/0.8.0/ivys/ivy.xml
+[debug] 	typesafe-ivy-releases: no ivy file found for org.scalastyle#scalastyle_2.10;0.8.0
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalastyle/scalastyle_2.10/0.8.0/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalastyle/scalastyle_2.10/0.8.0/ivys/ivy.xml
+[debug] 	sbt-plugin-releases: no ivy file found for org.scalastyle#scalastyle_2.10;0.8.0
+[debug] 		tried /Users/jdehling/.ivy2/local/org.scalastyle/scalastyle_2.10/0.8.0/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.scalastyle#scalastyle_2.10;0.8.0
+[debug] 		tried https://jcenter.bintray.com/org/scalastyle/scalastyle_2.10/0.8.0/scalastyle_2.10-0.8.0.pom
+[debug] 	jcenter: found md file for org.scalastyle#scalastyle_2.10;0.8.0
+[debug] 		=> https://jcenter.bintray.com/org/scalastyle/scalastyle_2.10/0.8.0/scalastyle_2.10-0.8.0.pom (0.8.0)
+[debug] downloading https://jcenter.bintray.com/org/scalastyle/scalastyle_2.10/0.8.0/scalastyle_2.10-0.8.0.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scalastyle/scalastyle_2.10/0.8.0/scalastyle_2.10-0.8.0.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scalastyle/scalastyle_2.10/0.8.0/scalastyle_2.10-0.8.0.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scalastyle/scalastyle_2.10/0.8.0/scalastyle_2.10-0.8.0.pom
+[debug] 	[SUCCESSFUL ] org.scalastyle#scalastyle_2.10;0.8.0!scalastyle_2.10.pom(pom.original) (226ms)
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scalastyle/scalastyle_2.10/0.8.0/jars/scalastyle_2.10.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scalastyle/scalastyle_2.10/0.8.0/jars/scalastyle_2.10.jar
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalastyle/scalastyle_2.10/0.8.0/jars/scalastyle_2.10.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalastyle/scalastyle_2.10/0.8.0/jars/scalastyle_2.10.jar
+[debug] 		tried /Users/jdehling/.ivy2/local/org.scalastyle/scalastyle_2.10/0.8.0/jars/scalastyle_2.10.jar
+[debug] 		tried https://jcenter.bintray.com/org/scalastyle/scalastyle_2.10/0.8.0/scalastyle_2.10-0.8.0.jar
+[debug] 	found org.scalastyle#scalastyle_2.10;0.8.0 in jcenter
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->runtime]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->compile]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->org.scala-lang#scala-library;2.10.5 [compile->master(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -24,8 +47,31 @@
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->org.scalariform#scalariform_2.10;0.1.7 [compile->master(compile)]
 [info] Resolving org.scalariform#scalariform_2.10;0.1.7 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scalariform#scalariform_2.10;0.1.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.scalariform#scalariform_2.10;0.1.7
-[debug] 	found org.scalariform#scalariform_2.10;0.1.7 in sbt-chain
+[info] Resolving org.scalariform#scalariform_2.10;0.1.7 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.scalariform#scalariform_2.10;0.1.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scalariform/scalariform_2.10/0.1.7/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scalariform/scalariform_2.10/0.1.7/ivys/ivy.xml
+[debug] 	typesafe-ivy-releases: no ivy file found for org.scalariform#scalariform_2.10;0.1.7
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalariform/scalariform_2.10/0.1.7/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalariform/scalariform_2.10/0.1.7/ivys/ivy.xml
+[debug] 	sbt-plugin-releases: no ivy file found for org.scalariform#scalariform_2.10;0.1.7
+[debug] 		tried /Users/jdehling/.ivy2/local/org.scalariform/scalariform_2.10/0.1.7/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.scalariform#scalariform_2.10;0.1.7
+[debug] 		tried https://jcenter.bintray.com/org/scalariform/scalariform_2.10/0.1.7/scalariform_2.10-0.1.7.pom
+[debug] 	jcenter: found md file for org.scalariform#scalariform_2.10;0.1.7
+[debug] 		=> https://jcenter.bintray.com/org/scalariform/scalariform_2.10/0.1.7/scalariform_2.10-0.1.7.pom (0.1.7)
+[debug] downloading https://jcenter.bintray.com/org/scalariform/scalariform_2.10/0.1.7/scalariform_2.10-0.1.7.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scalariform/scalariform_2.10/0.1.7/scalariform_2.10-0.1.7.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scalariform/scalariform_2.10/0.1.7/scalariform_2.10-0.1.7.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scalariform/scalariform_2.10/0.1.7/scalariform_2.10-0.1.7.pom
+[debug] 	[SUCCESSFUL ] org.scalariform#scalariform_2.10;0.1.7!scalariform_2.10.pom(pom.original) (235ms)
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scalariform/scalariform_2.10/0.1.7/jars/scalariform_2.10.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scalariform/scalariform_2.10/0.1.7/jars/scalariform_2.10.jar
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalariform/scalariform_2.10/0.1.7/jars/scalariform_2.10.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalariform/scalariform_2.10/0.1.7/jars/scalariform_2.10.jar
+[debug] 		tried /Users/jdehling/.ivy2/local/org.scalariform/scalariform_2.10/0.1.7/jars/scalariform_2.10.jar
+[debug] 		tried https://jcenter.bintray.com/org/scalariform/scalariform_2.10/0.1.7/scalariform_2.10-0.1.7.jar
+[debug] 	found org.scalariform#scalariform_2.10;0.1.7 in jcenter
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->org.scalariform#scalariform_2.10;0.1.7 [compile->compile(*)]
 [debug] == resolving dependencies org.scalariform#scalariform_2.10;0.1.7->org.scala-lang#scala-library;2.10.5 [compile->master(compile)]
 [debug] == resolving dependencies org.scalariform#scalariform_2.10;0.1.7->org.scala-lang#scala-library;2.10.5 [compile->compile(*)]
@@ -36,8 +82,31 @@
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->com.typesafe#config;1.2.0 [compile->master(compile)]
 [info] Resolving com.typesafe#config;1.2.0 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe#config;1.2.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: com.typesafe#config;1.2.0
-[debug] 	found com.typesafe#config;1.2.0 in sbt-chain
+[info] Resolving com.typesafe#config;1.2.0 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: com.typesafe#config;1.2.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe/config/1.2.0/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe/config/1.2.0/ivys/ivy.xml
+[debug] 	typesafe-ivy-releases: no ivy file found for com.typesafe#config;1.2.0
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe/config/1.2.0/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe/config/1.2.0/ivys/ivy.xml
+[debug] 	sbt-plugin-releases: no ivy file found for com.typesafe#config;1.2.0
+[debug] 		tried /Users/jdehling/.ivy2/local/com.typesafe/config/1.2.0/ivys/ivy.xml
+[debug] 	local: no ivy file found for com.typesafe#config;1.2.0
+[debug] 		tried https://jcenter.bintray.com/com/typesafe/config/1.2.0/config-1.2.0.pom
+[debug] 	jcenter: found md file for com.typesafe#config;1.2.0
+[debug] 		=> https://jcenter.bintray.com/com/typesafe/config/1.2.0/config-1.2.0.pom (1.2.0)
+[debug] downloading https://jcenter.bintray.com/com/typesafe/config/1.2.0/config-1.2.0.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/typesafe/config/1.2.0/config-1.2.0.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/typesafe/config/1.2.0/config-1.2.0.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/com/typesafe/config/1.2.0/config-1.2.0.pom
+[debug] 	[SUCCESSFUL ] com.typesafe#config;1.2.0!config.pom(pom.original) (224ms)
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe/config/1.2.0/bundles/config.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe/config/1.2.0/bundles/config.jar
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe/config/1.2.0/bundles/config.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe/config/1.2.0/bundles/config.jar
+[debug] 		tried /Users/jdehling/.ivy2/local/com.typesafe/config/1.2.0/bundles/config.jar
+[debug] 		tried https://jcenter.bintray.com/com/typesafe/config/1.2.0/config-1.2.0.jar
+[debug] 	found com.typesafe#config;1.2.0 in jcenter
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->com.typesafe#config;1.2.0 [compile->compile(*)]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->com.typesafe#config;1.2.0 [compile->runtime(*)]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->com.typesafe#config;1.2.0 [compile->compile]
@@ -47,45 +116,265 @@
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->org.scalariform#scalariform_2.10;0.1.7 [runtime->compile]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->com.typesafe#config;1.2.0 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->com.typesafe#config;1.2.0 [runtime->compile]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->master]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->default(compile)]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->master]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->default(compile)]
 [info] Resolving org.scalaj#scalaj-http_2.10;2.2.1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scalaj#scalaj-http_2.10;2.2.1 {compile=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: org.scalaj#scalaj-http_2.10;2.2.1
-[debug] 	found org.scalaj#scalaj-http_2.10;2.2.1 in sbt-chain
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->runtime]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->compile]
+[info] Resolving org.scalaj#scalaj-http_2.10;2.2.1 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.scalaj#scalaj-http_2.10;2.2.1 {compile=[default(compile)]}
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scalaj/scalaj-http_2.10/2.2.1/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scalaj/scalaj-http_2.10/2.2.1/ivys/ivy.xml
+[debug] 	typesafe-ivy-releases: no ivy file found for org.scalaj#scalaj-http_2.10;2.2.1
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalaj/scalaj-http_2.10/2.2.1/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalaj/scalaj-http_2.10/2.2.1/ivys/ivy.xml
+[debug] 	sbt-plugin-releases: no ivy file found for org.scalaj#scalaj-http_2.10;2.2.1
+[debug] 		tried /Users/jdehling/.ivy2/local/org.scalaj/scalaj-http_2.10/2.2.1/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.scalaj#scalaj-http_2.10;2.2.1
+[debug] 		tried https://jcenter.bintray.com/org/scalaj/scalaj-http_2.10/2.2.1/scalaj-http_2.10-2.2.1.pom
+[debug] 	jcenter: found md file for org.scalaj#scalaj-http_2.10;2.2.1
+[debug] 		=> https://jcenter.bintray.com/org/scalaj/scalaj-http_2.10/2.2.1/scalaj-http_2.10-2.2.1.pom (2.2.1)
+[debug] downloading https://jcenter.bintray.com/org/scalaj/scalaj-http_2.10/2.2.1/scalaj-http_2.10-2.2.1.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scalaj/scalaj-http_2.10/2.2.1/scalaj-http_2.10-2.2.1.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scalaj/scalaj-http_2.10/2.2.1/scalaj-http_2.10-2.2.1.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scalaj/scalaj-http_2.10/2.2.1/scalaj-http_2.10-2.2.1.pom
+[debug] 	[SUCCESSFUL ] org.scalaj#scalaj-http_2.10;2.2.1!scalaj-http_2.10.pom(pom.original) (223ms)
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scalaj/scalaj-http_2.10/2.2.1/jars/scalaj-http_2.10.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scalaj/scalaj-http_2.10/2.2.1/jars/scalaj-http_2.10.jar
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalaj/scalaj-http_2.10/2.2.1/jars/scalaj-http_2.10.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalaj/scalaj-http_2.10/2.2.1/jars/scalaj-http_2.10.jar
+[debug] 		tried /Users/jdehling/.ivy2/local/org.scalaj/scalaj-http_2.10/2.2.1/jars/scalaj-http_2.10.jar
+[debug] 		tried https://jcenter.bintray.com/org/scalaj/scalaj-http_2.10/2.2.1/scalaj-http_2.10-2.2.1.jar
+[debug] 	found org.scalaj#scalaj-http_2.10;2.2.1 in jcenter
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->runtime]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->compile]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.5 [compile->master(compile)]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.5 [compile->compile(*)]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.5 [runtime->compile]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->master]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->default(compile)]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->master]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->default(compile)]
 [info] Resolving commons-codec#commons-codec;1.10 ...
 [debug] sbt-chain: Checking cache for: dependency: commons-codec#commons-codec;1.10 {compile=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: commons-codec#commons-codec;1.10
-[debug] 	found commons-codec#commons-codec;1.10 in sbt-chain
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->runtime]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->compile]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->master]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->default(compile)]
+[info] Resolving commons-codec#commons-codec;1.10 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: commons-codec#commons-codec;1.10 {compile=[default(compile)]}
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/commons-codec/commons-codec/1.10/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/commons-codec/commons-codec/1.10/ivys/ivy.xml
+[debug] 	typesafe-ivy-releases: no ivy file found for commons-codec#commons-codec;1.10
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/commons-codec/commons-codec/1.10/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/commons-codec/commons-codec/1.10/ivys/ivy.xml
+[debug] 	sbt-plugin-releases: no ivy file found for commons-codec#commons-codec;1.10
+[debug] 		tried /Users/jdehling/.ivy2/local/commons-codec/commons-codec/1.10/ivys/ivy.xml
+[debug] 	local: no ivy file found for commons-codec#commons-codec;1.10
+[debug] 		tried https://jcenter.bintray.com/commons-codec/commons-codec/1.10/commons-codec-1.10.pom
+[debug] 	jcenter: found md file for commons-codec#commons-codec;1.10
+[debug] 		=> https://jcenter.bintray.com/commons-codec/commons-codec/1.10/commons-codec-1.10.pom (1.10)
+[debug] downloading https://jcenter.bintray.com/commons-codec/commons-codec/1.10/commons-codec-1.10.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/commons-codec/commons-codec/1.10/commons-codec-1.10.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/commons-codec/commons-codec/1.10/commons-codec-1.10.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/commons-codec/commons-codec/1.10/commons-codec-1.10.pom
+[debug] 	[SUCCESSFUL ] commons-codec#commons-codec;1.10!commons-codec.pom(pom.original) (263ms)
+[info] Resolving org.apache.commons#commons-parent;35 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.commons#commons-parent;35 {}
+[info] Resolving org.apache.commons#commons-parent;35 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.commons#commons-parent;35 {}
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.commons/commons-parent/35/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.commons/commons-parent/35/ivys/ivy.xml
+[debug] 	typesafe-ivy-releases: no ivy file found for org.apache.commons#commons-parent;35
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.commons/commons-parent/35/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.commons/commons-parent/35/ivys/ivy.xml
+[debug] 	sbt-plugin-releases: no ivy file found for org.apache.commons#commons-parent;35
+[debug] 		tried /Users/jdehling/.ivy2/local/org.apache.commons/commons-parent/35/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.apache.commons#commons-parent;35
+[debug] 		tried https://jcenter.bintray.com/org/apache/commons/commons-parent/35/commons-parent-35.pom
+[debug] 	jcenter: found md file for org.apache.commons#commons-parent;35
+[debug] 		=> https://jcenter.bintray.com/org/apache/commons/commons-parent/35/commons-parent-35.pom (35)
+[debug] downloading https://jcenter.bintray.com/org/apache/commons/commons-parent/35/commons-parent-35.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/commons/commons-parent/35/commons-parent-35.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/commons/commons-parent/35/commons-parent-35.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/apache/commons/commons-parent/35/commons-parent-35.pom
+[debug] 	[SUCCESSFUL ] org.apache.commons#commons-parent;35!commons-parent.pom(pom.original) (305ms)
+[info] Resolving org.apache#apache;15 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache#apache;15 {}
+[info] Resolving org.apache#apache;15 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache#apache;15 {}
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache/apache/15/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache/apache/15/ivys/ivy.xml
+[debug] 	typesafe-ivy-releases: no ivy file found for org.apache#apache;15
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/15/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/15/ivys/ivy.xml
+[debug] 	sbt-plugin-releases: no ivy file found for org.apache#apache;15
+[debug] 		tried /Users/jdehling/.ivy2/local/org.apache/apache/15/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.apache#apache;15
+[debug] 		tried https://jcenter.bintray.com/org/apache/apache/15/apache-15.pom
+[debug] 	jcenter: found md file for org.apache#apache;15
+[debug] 		=> https://jcenter.bintray.com/org/apache/apache/15/apache-15.pom (15)
+[debug] downloading https://jcenter.bintray.com/org/apache/apache/15/apache-15.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/apache/15/apache-15.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/apache/15/apache-15.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/apache/apache/15/apache-15.pom
+[debug] 	[SUCCESSFUL ] org.apache#apache;15!apache.pom(pom.original) (267ms)
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache/apache/15/jars/apache.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache/apache/15/jars/apache.jar
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/15/jars/apache.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/15/jars/apache.jar
+[debug] 		tried /Users/jdehling/.ivy2/local/org.apache/apache/15/jars/apache.jar
+[debug] 		tried https://jcenter.bintray.com/org/apache/apache/15/apache-15.jar
+[debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/apache/apache/15/apache-15.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/apache/15/apache-15.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/apache/15/apache-15.jar
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.commons/commons-parent/35/jars/commons-parent.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.commons/commons-parent/35/jars/commons-parent.jar
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.commons/commons-parent/35/jars/commons-parent.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.commons/commons-parent/35/jars/commons-parent.jar
+[debug] 		tried /Users/jdehling/.ivy2/local/org.apache.commons/commons-parent/35/jars/commons-parent.jar
+[debug] 		tried https://jcenter.bintray.com/org/apache/commons/commons-parent/35/commons-parent-35.jar
+[debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/apache/commons/commons-parent/35/commons-parent-35.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/commons/commons-parent/35/commons-parent-35.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/commons/commons-parent/35/commons-parent-35.jar
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/commons-codec/commons-codec/1.10/jars/commons-codec.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/commons-codec/commons-codec/1.10/jars/commons-codec.jar
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/commons-codec/commons-codec/1.10/jars/commons-codec.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/commons-codec/commons-codec/1.10/jars/commons-codec.jar
+[debug] 		tried /Users/jdehling/.ivy2/local/commons-codec/commons-codec/1.10/jars/commons-codec.jar
+[debug] 		tried https://jcenter.bintray.com/commons-codec/commons-codec/1.10/commons-codec-1.10.jar
+[debug] 	found commons-codec#commons-codec;1.10 in jcenter
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->runtime]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->compile]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->master]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->default(compile)]
 [info] Resolving org.apache.commons#commons-lang3;3.4 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.commons#commons-lang3;3.4 {compile=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: org.apache.commons#commons-lang3;3.4
-[debug] 	found org.apache.commons#commons-lang3;3.4 in sbt-chain
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->runtime]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->compile]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->master]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0 [compile->default(compile)]
+[info] Resolving org.apache.commons#commons-lang3;3.4 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.commons#commons-lang3;3.4 {compile=[default(compile)]}
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.commons/commons-lang3/3.4/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.commons/commons-lang3/3.4/ivys/ivy.xml
+[debug] 	typesafe-ivy-releases: no ivy file found for org.apache.commons#commons-lang3;3.4
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.commons/commons-lang3/3.4/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.commons/commons-lang3/3.4/ivys/ivy.xml
+[debug] 	sbt-plugin-releases: no ivy file found for org.apache.commons#commons-lang3;3.4
+[debug] 		tried /Users/jdehling/.ivy2/local/org.apache.commons/commons-lang3/3.4/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.apache.commons#commons-lang3;3.4
+[debug] 		tried https://jcenter.bintray.com/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.pom
+[debug] 	jcenter: found md file for org.apache.commons#commons-lang3;3.4
+[debug] 		=> https://jcenter.bintray.com/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.pom (3.4)
+[debug] downloading https://jcenter.bintray.com/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.pom
+[debug] 	[SUCCESSFUL ] org.apache.commons#commons-lang3;3.4!commons-lang3.pom(pom.original) (261ms)
+[info] Resolving org.apache.commons#commons-parent;37 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.commons#commons-parent;37 {}
+[info] Resolving org.apache.commons#commons-parent;37 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.commons#commons-parent;37 {}
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.commons/commons-parent/37/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.commons/commons-parent/37/ivys/ivy.xml
+[debug] 	typesafe-ivy-releases: no ivy file found for org.apache.commons#commons-parent;37
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.commons/commons-parent/37/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.commons/commons-parent/37/ivys/ivy.xml
+[debug] 	sbt-plugin-releases: no ivy file found for org.apache.commons#commons-parent;37
+[debug] 		tried /Users/jdehling/.ivy2/local/org.apache.commons/commons-parent/37/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.apache.commons#commons-parent;37
+[debug] 		tried https://jcenter.bintray.com/org/apache/commons/commons-parent/37/commons-parent-37.pom
+[debug] 	jcenter: found md file for org.apache.commons#commons-parent;37
+[debug] 		=> https://jcenter.bintray.com/org/apache/commons/commons-parent/37/commons-parent-37.pom (37)
+[debug] downloading https://jcenter.bintray.com/org/apache/commons/commons-parent/37/commons-parent-37.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/commons/commons-parent/37/commons-parent-37.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/commons/commons-parent/37/commons-parent-37.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/apache/commons/commons-parent/37/commons-parent-37.pom
+[debug] 	[SUCCESSFUL ] org.apache.commons#commons-parent;37!commons-parent.pom(pom.original) (302ms)
+[info] Resolving org.apache#apache;16 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache#apache;16 {}
+[info] Resolving org.apache#apache;16 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache#apache;16 {}
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache/apache/16/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache/apache/16/ivys/ivy.xml
+[debug] 	typesafe-ivy-releases: no ivy file found for org.apache#apache;16
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/16/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/16/ivys/ivy.xml
+[debug] 	sbt-plugin-releases: no ivy file found for org.apache#apache;16
+[debug] 		tried /Users/jdehling/.ivy2/local/org.apache/apache/16/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.apache#apache;16
+[debug] 		tried https://jcenter.bintray.com/org/apache/apache/16/apache-16.pom
+[debug] 	jcenter: found md file for org.apache#apache;16
+[debug] 		=> https://jcenter.bintray.com/org/apache/apache/16/apache-16.pom (16)
+[debug] downloading https://jcenter.bintray.com/org/apache/apache/16/apache-16.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/apache/16/apache-16.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/apache/16/apache-16.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/apache/apache/16/apache-16.pom
+[debug] 	[SUCCESSFUL ] org.apache#apache;16!apache.pom(pom.original) (224ms)
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache/apache/16/jars/apache.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache/apache/16/jars/apache.jar
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/16/jars/apache.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/16/jars/apache.jar
+[debug] 		tried /Users/jdehling/.ivy2/local/org.apache/apache/16/jars/apache.jar
+[debug] 		tried https://jcenter.bintray.com/org/apache/apache/16/apache-16.jar
+[debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/apache/apache/16/apache-16.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/apache/16/apache-16.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/apache/16/apache-16.jar
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.commons/commons-parent/37/jars/commons-parent.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.commons/commons-parent/37/jars/commons-parent.jar
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.commons/commons-parent/37/jars/commons-parent.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.commons/commons-parent/37/jars/commons-parent.jar
+[debug] 		tried /Users/jdehling/.ivy2/local/org.apache.commons/commons-parent/37/jars/commons-parent.jar
+[debug] 		tried https://jcenter.bintray.com/org/apache/commons/commons-parent/37/commons-parent-37.jar
+[debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/apache/commons/commons-parent/37/commons-parent-37.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/commons/commons-parent/37/commons-parent-37.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/commons/commons-parent/37/commons-parent-37.jar
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.commons/commons-lang3/3.4/jars/commons-lang3.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.commons/commons-lang3/3.4/jars/commons-lang3.jar
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.commons/commons-lang3/3.4/jars/commons-lang3.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.commons/commons-lang3/3.4/jars/commons-lang3.jar
+[debug] 		tried /Users/jdehling/.ivy2/local/org.apache.commons/commons-lang3/3.4/jars/commons-lang3.jar
+[debug] 		tried https://jcenter.bintray.com/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar
+[debug] 	found org.apache.commons#commons-lang3;3.4 in jcenter
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->runtime]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->compile]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->master]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0 [compile->default(compile)]
 [info] Resolving com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0 {compile=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0
-[debug] 	found com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0 in sbt-chain
+[info] Resolving com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0 {compile=[default(compile)]}
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/4.0.0/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/4.0.0/ivys/ivy.xml
+[debug] 	typesafe-ivy-releases: no ivy file found for com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/4.0.0/ivys/ivy.xml
+[debug] 	sbt-plugin-releases: found md file for com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0
+[debug] 		=> https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/4.0.0/ivys/ivy.xml (4.0.0)
+[debug] downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/4.0.0/ivys/ivy.xml ...
+[debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/4.0.0/ivys/ivy.xml
+[debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/4.0.0/ivys/ivy.xml.sha1
+[debug] sha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/4.0.0/ivys/ivy.xml
+[debug] 	[SUCCESSFUL ] com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0!ivy.xml(ivy.original) (348ms)
+[debug] 	found com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0 in sbt-plugin-releases
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0->org.scalaz#scalaz-core_2.10;7.1.0 [compile->default(compile)]
 [info] Resolving org.scalaz#scalaz-core_2.10;7.1.0 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scalaz#scalaz-core_2.10;7.1.0 {compile=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: org.scalaz#scalaz-core_2.10;7.1.0
-[debug] 	found org.scalaz#scalaz-core_2.10;7.1.0 in sbt-chain
+[info] Resolving org.scalaz#scalaz-core_2.10;7.1.0 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.scalaz#scalaz-core_2.10;7.1.0 {compile=[default(compile)]}
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scalaz/scalaz-core_2.10/7.1.0/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scalaz/scalaz-core_2.10/7.1.0/ivys/ivy.xml
+[debug] 	typesafe-ivy-releases: no ivy file found for org.scalaz#scalaz-core_2.10;7.1.0
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalaz/scalaz-core_2.10/7.1.0/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalaz/scalaz-core_2.10/7.1.0/ivys/ivy.xml
+[debug] 	sbt-plugin-releases: no ivy file found for org.scalaz#scalaz-core_2.10;7.1.0
+[debug] 		tried /Users/jdehling/.ivy2/local/org.scalaz/scalaz-core_2.10/7.1.0/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.scalaz#scalaz-core_2.10;7.1.0
+[debug] 		tried https://jcenter.bintray.com/org/scalaz/scalaz-core_2.10/7.1.0/scalaz-core_2.10-7.1.0.pom
+[debug] 	jcenter: found md file for org.scalaz#scalaz-core_2.10;7.1.0
+[debug] 		=> https://jcenter.bintray.com/org/scalaz/scalaz-core_2.10/7.1.0/scalaz-core_2.10-7.1.0.pom (7.1.0)
+[debug] downloading https://jcenter.bintray.com/org/scalaz/scalaz-core_2.10/7.1.0/scalaz-core_2.10-7.1.0.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scalaz/scalaz-core_2.10/7.1.0/scalaz-core_2.10-7.1.0.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scalaz/scalaz-core_2.10/7.1.0/scalaz-core_2.10-7.1.0.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scalaz/scalaz-core_2.10/7.1.0/scalaz-core_2.10-7.1.0.pom
+[debug] 	[SUCCESSFUL ] org.scalaz#scalaz-core_2.10;7.1.0!scalaz-core_2.10.pom(pom.original) (228ms)
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scalaz/scalaz-core_2.10/7.1.0/bundles/scalaz-core_2.10.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scalaz/scalaz-core_2.10/7.1.0/bundles/scalaz-core_2.10.jar
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalaz/scalaz-core_2.10/7.1.0/bundles/scalaz-core_2.10.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalaz/scalaz-core_2.10/7.1.0/bundles/scalaz-core_2.10.jar
+[debug] 		tried /Users/jdehling/.ivy2/local/org.scalaz/scalaz-core_2.10/7.1.0/bundles/scalaz-core_2.10.jar
+[debug] 		tried https://jcenter.bintray.com/org/scalaz/scalaz-core_2.10/7.1.0/scalaz-core_2.10-7.1.0.jar
+[debug] 	found org.scalaz#scalaz-core_2.10;7.1.0 in jcenter
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0->org.scalaz#scalaz-core_2.10;7.1.0 [compile->runtime]
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0->org.scalaz#scalaz-core_2.10;7.1.0 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -105,8 +394,31 @@
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0->org.scalaz#scalaz-effect_2.10;7.1.0 [compile->default(compile)]
 [info] Resolving org.scalaz#scalaz-effect_2.10;7.1.0 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scalaz#scalaz-effect_2.10;7.1.0 {compile=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: org.scalaz#scalaz-effect_2.10;7.1.0
-[debug] 	found org.scalaz#scalaz-effect_2.10;7.1.0 in sbt-chain
+[info] Resolving org.scalaz#scalaz-effect_2.10;7.1.0 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.scalaz#scalaz-effect_2.10;7.1.0 {compile=[default(compile)]}
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scalaz/scalaz-effect_2.10/7.1.0/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scalaz/scalaz-effect_2.10/7.1.0/ivys/ivy.xml
+[debug] 	typesafe-ivy-releases: no ivy file found for org.scalaz#scalaz-effect_2.10;7.1.0
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalaz/scalaz-effect_2.10/7.1.0/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalaz/scalaz-effect_2.10/7.1.0/ivys/ivy.xml
+[debug] 	sbt-plugin-releases: no ivy file found for org.scalaz#scalaz-effect_2.10;7.1.0
+[debug] 		tried /Users/jdehling/.ivy2/local/org.scalaz/scalaz-effect_2.10/7.1.0/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.scalaz#scalaz-effect_2.10;7.1.0
+[debug] 		tried https://jcenter.bintray.com/org/scalaz/scalaz-effect_2.10/7.1.0/scalaz-effect_2.10-7.1.0.pom
+[debug] 	jcenter: found md file for org.scalaz#scalaz-effect_2.10;7.1.0
+[debug] 		=> https://jcenter.bintray.com/org/scalaz/scalaz-effect_2.10/7.1.0/scalaz-effect_2.10-7.1.0.pom (7.1.0)
+[debug] downloading https://jcenter.bintray.com/org/scalaz/scalaz-effect_2.10/7.1.0/scalaz-effect_2.10-7.1.0.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scalaz/scalaz-effect_2.10/7.1.0/scalaz-effect_2.10-7.1.0.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scalaz/scalaz-effect_2.10/7.1.0/scalaz-effect_2.10-7.1.0.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scalaz/scalaz-effect_2.10/7.1.0/scalaz-effect_2.10-7.1.0.pom
+[debug] 	[SUCCESSFUL ] org.scalaz#scalaz-effect_2.10;7.1.0!scalaz-effect_2.10.pom(pom.original) (231ms)
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scalaz/scalaz-effect_2.10/7.1.0/bundles/scalaz-effect_2.10.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scalaz/scalaz-effect_2.10/7.1.0/bundles/scalaz-effect_2.10.jar
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalaz/scalaz-effect_2.10/7.1.0/bundles/scalaz-effect_2.10.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalaz/scalaz-effect_2.10/7.1.0/bundles/scalaz-effect_2.10.jar
+[debug] 		tried /Users/jdehling/.ivy2/local/org.scalaz/scalaz-effect_2.10/7.1.0/bundles/scalaz-effect_2.10.jar
+[debug] 		tried https://jcenter.bintray.com/org/scalaz/scalaz-effect_2.10/7.1.0/scalaz-effect_2.10-7.1.0.jar
+[debug] 	found org.scalaz#scalaz-effect_2.10;7.1.0 in jcenter
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0->org.scalaz#scalaz-effect_2.10;7.1.0 [compile->runtime]
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0->org.scalaz#scalaz-effect_2.10;7.1.0 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -135,11 +447,11 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] resolving dependencies for configuration 'runtime'
-[debug] == resolving dependencies for default#example-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#example-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->runtime]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->compile]
+[debug] == resolving dependencies for default#example-assignment-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#example-assignment-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->runtime]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->compile]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->org.scala-lang#scala-library;2.10.5 [compile->master(compile)]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->org.scala-lang#scala-library;2.10.5 [compile->compile(*)]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->org.scalariform#scalariform_2.10;0.1.7 [compile->master(compile)]
@@ -156,24 +468,24 @@
 [debug] == resolving dependencies org.scalariform#scalariform_2.10;0.1.7->org.scala-lang#scala-library;2.10.5 [runtime->compile]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->com.typesafe#config;1.2.0 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->com.typesafe#config;1.2.0 [runtime->compile]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->master]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->default(compile)]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->runtime]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->compile]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->master]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->default(compile)]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->runtime]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->compile]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.5 [compile->master(compile)]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.5 [compile->compile(*)]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.5 [runtime->compile]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->master]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->default(compile)]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->runtime]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->compile]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->master]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->default(compile)]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->runtime]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->compile]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->master]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->master]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->default(compile)]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->runtime]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->compile]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->master]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->default(compile)]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->runtime]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->compile]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->master]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0->org.scalaz#scalaz-core_2.10;7.1.0 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0->org.scalaz#scalaz-core_2.10;7.1.0 [compile->runtime]
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0->org.scalaz#scalaz-core_2.10;7.1.0 [compile->compile]
@@ -218,12 +530,12 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] resolving dependencies for configuration 'test'
-[debug] == resolving dependencies for default#example-build;0.1-SNAPSHOT [test]
-[debug] == resolving dependencies for default#example-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#example-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->runtime]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->compile]
+[debug] == resolving dependencies for default#example-assignment-build;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#example-assignment-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#example-assignment-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->runtime]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->compile]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->org.scala-lang#scala-library;2.10.5 [compile->master(compile)]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->org.scala-lang#scala-library;2.10.5 [compile->compile(*)]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->org.scalariform#scalariform_2.10;0.1.7 [compile->master(compile)]
@@ -240,24 +552,24 @@
 [debug] == resolving dependencies org.scalariform#scalariform_2.10;0.1.7->org.scala-lang#scala-library;2.10.5 [runtime->compile]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->com.typesafe#config;1.2.0 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->com.typesafe#config;1.2.0 [runtime->compile]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->master]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->default(compile)]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->runtime]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->compile]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->master]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->default(compile)]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->runtime]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->compile]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.5 [compile->master(compile)]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.5 [compile->compile(*)]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.5 [runtime->compile]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->master]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->default(compile)]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->runtime]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->compile]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->master]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->default(compile)]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->runtime]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->compile]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->master]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->master]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->default(compile)]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->runtime]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->compile]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->master]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->default(compile)]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->runtime]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->compile]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->master]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0->org.scalaz#scalaz-core_2.10;7.1.0 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0->org.scalaz#scalaz-core_2.10;7.1.0 [compile->runtime]
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0->org.scalaz#scalaz-core_2.10;7.1.0 [compile->compile]
@@ -302,12 +614,12 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] resolving dependencies for configuration 'provided'
-[debug] == resolving dependencies for default#example-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->default(compile)]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->runtime]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->compile]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->master]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.9 [provided->default(compile)]
+[debug] == resolving dependencies for default#example-assignment-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->default(compile)]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->runtime]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->compile]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->master]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.9 [provided->default(compile)]
 [info] Resolving org.scala-sbt#sbt;0.13.9 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;0.13.9 {provided=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#sbt;0.13.9
@@ -1167,13 +1479,13 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.9.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.5 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.3 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[default(compile)]}
 [debug] resolving dependencies for configuration 'optional'
-[debug] == resolving dependencies for default#example-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#example-assignment-build;0.1-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'compile-internal'
-[debug] == resolving dependencies for default#example-build;0.1-SNAPSHOT [compile-internal]
-[debug] == resolving dependencies for default#example-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->runtime]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->compile]
+[debug] == resolving dependencies for default#example-assignment-build;0.1-SNAPSHOT [compile-internal]
+[debug] == resolving dependencies for default#example-assignment-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->runtime]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->compile]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->org.scala-lang#scala-library;2.10.5 [compile->master(compile)]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->org.scala-lang#scala-library;2.10.5 [compile->compile(*)]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->org.scalariform#scalariform_2.10;0.1.7 [compile->master(compile)]
@@ -1190,24 +1502,24 @@
 [debug] == resolving dependencies org.scalariform#scalariform_2.10;0.1.7->org.scala-lang#scala-library;2.10.5 [runtime->compile]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->com.typesafe#config;1.2.0 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->com.typesafe#config;1.2.0 [runtime->compile]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->master]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->default(compile)]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->runtime]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->compile]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->master]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->default(compile)]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->runtime]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->compile]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.5 [compile->master(compile)]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.5 [compile->compile(*)]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.5 [runtime->compile]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->master]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->default(compile)]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->runtime]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->compile]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->master]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->default(compile)]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->runtime]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->compile]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->master]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->master]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->default(compile)]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->runtime]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->compile]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->master]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->default(compile)]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->runtime]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->compile]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->master]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0->org.scalaz#scalaz-core_2.10;7.1.0 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0->org.scalaz#scalaz-core_2.10;7.1.0 [compile->runtime]
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0->org.scalaz#scalaz-core_2.10;7.1.0 [compile->compile]
@@ -1251,13 +1563,13 @@
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0->org.scalaz#scalaz-effect_2.10;7.1.0 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies for default#example-build;0.1-SNAPSHOT [optional]
-[debug] == resolving dependencies for default#example-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->default(compile)]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->runtime]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->compile]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->master]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.9 [provided->default(compile)]
+[debug] == resolving dependencies for default#example-assignment-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#example-assignment-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->default(compile)]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->runtime]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->compile]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->master]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.9 [provided->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.9->org.scala-lang#scala-library;2.10.5 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.9->org.scala-lang#scala-library;2.10.5 [compile->runtime]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.9->org.scala-lang#scala-library;2.10.5 [compile->compile]
@@ -1892,12 +2204,12 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.9.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.5 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.3 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[default(compile)]}
 [debug] resolving dependencies for configuration 'runtime-internal'
-[debug] == resolving dependencies for default#example-build;0.1-SNAPSHOT [runtime-internal]
-[debug] == resolving dependencies for default#example-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#example-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->runtime]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->compile]
+[debug] == resolving dependencies for default#example-assignment-build;0.1-SNAPSHOT [runtime-internal]
+[debug] == resolving dependencies for default#example-assignment-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#example-assignment-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->runtime]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->compile]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->org.scala-lang#scala-library;2.10.5 [compile->master(compile)]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->org.scala-lang#scala-library;2.10.5 [compile->compile(*)]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->org.scalariform#scalariform_2.10;0.1.7 [compile->master(compile)]
@@ -1914,24 +2226,24 @@
 [debug] == resolving dependencies org.scalariform#scalariform_2.10;0.1.7->org.scala-lang#scala-library;2.10.5 [runtime->compile]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->com.typesafe#config;1.2.0 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->com.typesafe#config;1.2.0 [runtime->compile]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->master]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->default(compile)]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->runtime]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->compile]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->master]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->default(compile)]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->runtime]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->compile]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.5 [compile->master(compile)]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.5 [compile->compile(*)]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.5 [runtime->compile]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->master]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->default(compile)]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->runtime]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->compile]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->master]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->default(compile)]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->runtime]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->compile]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->master]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->master]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->default(compile)]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->runtime]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->compile]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->master]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->default(compile)]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->runtime]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->compile]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->master]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0->org.scalaz#scalaz-core_2.10;7.1.0 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0->org.scalaz#scalaz-core_2.10;7.1.0 [compile->runtime]
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0->org.scalaz#scalaz-core_2.10;7.1.0 [compile->compile]
@@ -1975,15 +2287,15 @@
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0->org.scalaz#scalaz-effect_2.10;7.1.0 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies for default#example-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#example-assignment-build;0.1-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'test-internal'
-[debug] == resolving dependencies for default#example-build;0.1-SNAPSHOT [test-internal]
-[debug] == resolving dependencies for default#example-build;0.1-SNAPSHOT [test]
-[debug] == resolving dependencies for default#example-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#example-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->runtime]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->compile]
+[debug] == resolving dependencies for default#example-assignment-build;0.1-SNAPSHOT [test-internal]
+[debug] == resolving dependencies for default#example-assignment-build;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#example-assignment-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#example-assignment-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->runtime]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->compile]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->org.scala-lang#scala-library;2.10.5 [compile->master(compile)]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->org.scala-lang#scala-library;2.10.5 [compile->compile(*)]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->org.scalariform#scalariform_2.10;0.1.7 [compile->master(compile)]
@@ -2000,24 +2312,24 @@
 [debug] == resolving dependencies org.scalariform#scalariform_2.10;0.1.7->org.scala-lang#scala-library;2.10.5 [runtime->compile]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->com.typesafe#config;1.2.0 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->com.typesafe#config;1.2.0 [runtime->compile]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->master]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->default(compile)]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->runtime]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->compile]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->master]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->default(compile)]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->runtime]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->compile]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.5 [compile->master(compile)]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.5 [compile->compile(*)]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.5 [runtime->compile]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->master]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->default(compile)]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->runtime]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->compile]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->master]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->default(compile)]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->runtime]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->compile]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->master]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->master]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->default(compile)]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->runtime]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->compile]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->master]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->default(compile)]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->runtime]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->compile]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->master]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0->org.scalaz#scalaz-core_2.10;7.1.0 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0->org.scalaz#scalaz-core_2.10;7.1.0 [compile->runtime]
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0->org.scalaz#scalaz-core_2.10;7.1.0 [compile->compile]
@@ -2061,13 +2373,13 @@
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0->org.scalaz#scalaz-effect_2.10;7.1.0 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies for default#example-build;0.1-SNAPSHOT [optional]
-[debug] == resolving dependencies for default#example-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->default(compile)]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->runtime]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->compile]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->master]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.9 [provided->default(compile)]
+[debug] == resolving dependencies for default#example-assignment-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#example-assignment-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->default(compile)]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->runtime]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->compile]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->master]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.9 [provided->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.9->org.scala-lang#scala-library;2.10.5 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.9->org.scala-lang#scala-library;2.10.5 [compile->runtime]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.9->org.scala-lang#scala-library;2.10.5 [compile->compile]
@@ -2702,18 +3014,18 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.9.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.5 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.3 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[default(compile)]}
 [debug] resolving dependencies for configuration 'plugin'
-[debug] == resolving dependencies for default#example-build;0.1-SNAPSHOT [plugin]
+[debug] == resolving dependencies for default#example-assignment-build;0.1-SNAPSHOT [plugin]
 [debug] resolving dependencies for configuration 'sources'
-[debug] == resolving dependencies for default#example-build;0.1-SNAPSHOT [sources]
+[debug] == resolving dependencies for default#example-assignment-build;0.1-SNAPSHOT [sources]
 [debug] resolving dependencies for configuration 'docs'
-[debug] == resolving dependencies for default#example-build;0.1-SNAPSHOT [docs]
+[debug] == resolving dependencies for default#example-assignment-build;0.1-SNAPSHOT [docs]
 [debug] resolving dependencies for configuration 'pom'
-[debug] == resolving dependencies for default#example-build;0.1-SNAPSHOT [pom]
+[debug] == resolving dependencies for default#example-assignment-build;0.1-SNAPSHOT [pom]
 [debug] resolving dependencies for configuration 'scala-tool'
-[debug] == resolving dependencies for default#example-build;0.1-SNAPSHOT [scala-tool]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.5 [scala-tool->default]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.5 [scala-tool->runtime]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.5 [scala-tool->compile]
+[debug] == resolving dependencies for default#example-assignment-build;0.1-SNAPSHOT [scala-tool]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.5 [scala-tool->default]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.5 [scala-tool->runtime]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.5 [scala-tool->compile]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-library;2.10.5 [compile->master(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-library;2.10.5 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-library;2.10.5 [compile->default]
@@ -2731,8 +3043,8 @@
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-reflect;2.10.5 [runtime->compile]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.5->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.5->org.scala-lang#scala-library;2.10.5 [runtime->compile]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.5 [scala-tool->master]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.5 [scala-tool->optional(default)]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.5 [scala-tool->master]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.5 [scala-tool->optional(default)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#jline;2.10.5 [optional->master(*)]
 [info] Resolving org.scala-lang#jline;2.10.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.5 {optional=[compile(*), master(*)]}
@@ -2745,23 +3057,68 @@
 [debug] sbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4
 [debug] 	found org.fusesource.jansi#jansi;1.4 in sbt-chain
 [debug] == resolving dependencies org.scala-lang#jline;2.10.5->org.fusesource.jansi#jansi;1.4 [compile->compile(*)]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [scala-tool->default]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [scala-tool->runtime]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [scala-tool->compile]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [scala-tool->master]
-[debug] == resolving dependencies default#example-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [scala-tool->optional(default)]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [scala-tool->default]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [scala-tool->runtime]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [scala-tool->compile]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [scala-tool->master]
+[debug] == resolving dependencies default#example-assignment-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [scala-tool->optional(default)]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] org.scalastyle#scalastyle_2.10;0.8.0!scalastyle_2.10.jar
-[debug] 	[NOT REQUIRED] org.scalaj#scalaj-http_2.10;2.2.1!scalaj-http_2.10.jar
-[debug] 	[NOT REQUIRED] commons-codec#commons-codec;1.10!commons-codec.jar
-[debug] 	[NOT REQUIRED] org.apache.commons#commons-lang3;3.4!commons-lang3.jar
-[debug] 	[NOT REQUIRED] com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0!sbteclipse-plugin.jar
+[debug] 		tried https://jcenter.bintray.com/org/scalastyle/scalastyle_2.10/0.8.0/scalastyle_2.10-0.8.0.jar
+[info] downloading https://jcenter.bintray.com/org/scalastyle/scalastyle_2.10/0.8.0/scalastyle_2.10-0.8.0.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scalastyle/scalastyle_2.10/0.8.0/scalastyle_2.10-0.8.0.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scalastyle/scalastyle_2.10/0.8.0/scalastyle_2.10-0.8.0.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scalastyle/scalastyle_2.10/0.8.0/scalastyle_2.10-0.8.0.jar
+[info] 	[SUCCESSFUL ] org.scalastyle#scalastyle_2.10;0.8.0!scalastyle_2.10.jar (930ms)
+[debug] 		tried https://jcenter.bintray.com/org/scalaj/scalaj-http_2.10/2.2.1/scalaj-http_2.10-2.2.1.jar
+[info] downloading https://jcenter.bintray.com/org/scalaj/scalaj-http_2.10/2.2.1/scalaj-http_2.10-2.2.1.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scalaj/scalaj-http_2.10/2.2.1/scalaj-http_2.10-2.2.1.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scalaj/scalaj-http_2.10/2.2.1/scalaj-http_2.10-2.2.1.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scalaj/scalaj-http_2.10/2.2.1/scalaj-http_2.10-2.2.1.jar
+[info] 	[SUCCESSFUL ] org.scalaj#scalaj-http_2.10;2.2.1!scalaj-http_2.10.jar (396ms)
+[debug] 		tried https://jcenter.bintray.com/commons-codec/commons-codec/1.10/commons-codec-1.10.jar
+[info] downloading https://jcenter.bintray.com/commons-codec/commons-codec/1.10/commons-codec-1.10.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/commons-codec/commons-codec/1.10/commons-codec-1.10.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/commons-codec/commons-codec/1.10/commons-codec-1.10.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/commons-codec/commons-codec/1.10/commons-codec-1.10.jar
+[info] 	[SUCCESSFUL ] commons-codec#commons-codec;1.10!commons-codec.jar (335ms)
+[debug] 		tried https://jcenter.bintray.com/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar
+[info] downloading https://jcenter.bintray.com/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar
+[info] 	[SUCCESSFUL ] org.apache.commons#commons-lang3;3.4!commons-lang3.jar (341ms)
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/4.0.0/jars/sbteclipse-plugin.jar
+[info] downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/4.0.0/jars/sbteclipse-plugin.jar ...
+[debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/4.0.0/jars/sbteclipse-plugin.jar
+[debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/4.0.0/jars/sbteclipse-plugin.jar.sha1
+[debug] sha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/4.0.0/jars/sbteclipse-plugin.jar
+[info] 	[SUCCESSFUL ] com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0!sbteclipse-plugin.jar (553ms)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.5!scala-library.jar
-[debug] 	[NOT REQUIRED] org.scalariform#scalariform_2.10;0.1.7!scalariform_2.10.jar
-[debug] 	[NOT REQUIRED] com.typesafe#config;1.2.0!config.jar(bundle)
-[debug] 	[NOT REQUIRED] org.scalaz#scalaz-core_2.10;7.1.0!scalaz-core_2.10.jar(bundle)
-[debug] 	[NOT REQUIRED] org.scalaz#scalaz-effect_2.10;7.1.0!scalaz-effect_2.10.jar(bundle)
+[debug] 		tried https://jcenter.bintray.com/org/scalariform/scalariform_2.10/0.1.7/scalariform_2.10-0.1.7.jar
+[info] downloading https://jcenter.bintray.com/org/scalariform/scalariform_2.10/0.1.7/scalariform_2.10-0.1.7.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scalariform/scalariform_2.10/0.1.7/scalariform_2.10-0.1.7.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scalariform/scalariform_2.10/0.1.7/scalariform_2.10-0.1.7.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scalariform/scalariform_2.10/0.1.7/scalariform_2.10-0.1.7.jar
+[info] 	[SUCCESSFUL ] org.scalariform#scalariform_2.10;0.1.7!scalariform_2.10.jar (928ms)
+[debug] 		tried https://jcenter.bintray.com/com/typesafe/config/1.2.0/config-1.2.0.jar
+[info] downloading https://jcenter.bintray.com/com/typesafe/config/1.2.0/config-1.2.0.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/typesafe/config/1.2.0/config-1.2.0.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/typesafe/config/1.2.0/config-1.2.0.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/com/typesafe/config/1.2.0/config-1.2.0.jar
+[info] 	[SUCCESSFUL ] com.typesafe#config;1.2.0!config.jar(bundle) (349ms)
+[debug] 		tried https://jcenter.bintray.com/org/scalaz/scalaz-core_2.10/7.1.0/scalaz-core_2.10-7.1.0.jar
+[info] downloading https://jcenter.bintray.com/org/scalaz/scalaz-core_2.10/7.1.0/scalaz-core_2.10-7.1.0.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scalaz/scalaz-core_2.10/7.1.0/scalaz-core_2.10-7.1.0.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scalaz/scalaz-core_2.10/7.1.0/scalaz-core_2.10-7.1.0.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scalaz/scalaz-core_2.10/7.1.0/scalaz-core_2.10-7.1.0.jar
+[info] 	[SUCCESSFUL ] org.scalaz#scalaz-core_2.10;7.1.0!scalaz-core_2.10.jar(bundle) (1031ms)
+[debug] 		tried https://jcenter.bintray.com/org/scalaz/scalaz-effect_2.10/7.1.0/scalaz-effect_2.10-7.1.0.jar
+[info] downloading https://jcenter.bintray.com/org/scalaz/scalaz-effect_2.10/7.1.0/scalaz-effect_2.10-7.1.0.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scalaz/scalaz-effect_2.10/7.1.0/scalaz-effect_2.10-7.1.0.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scalaz/scalaz-effect_2.10/7.1.0/scalaz-effect_2.10-7.1.0.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scalaz/scalaz-effect_2.10/7.1.0/scalaz-effect_2.10-7.1.0.jar
+[info] 	[SUCCESSFUL ] org.scalaz#scalaz-effect_2.10;7.1.0!scalaz-effect_2.10.jar(bundle) (363ms)
 [debug] 	[NOT REQUIRED] org.scala-sbt#sbt;0.13.9!sbt.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#main;0.13.9!main.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#compiler-interface;0.13.9!compiler-interface-bin.jar
@@ -2817,19 +3174,19 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.9!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.5!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 3048ms :: artifacts dl 179ms
-[debug] 	report for default#example-build;0.1-SNAPSHOT compile produced in /Users/jdehlinger/Desktop/example/project/target/resolution-cache/reports/default-example-build-compile.xml
-[debug] 	report for default#example-build;0.1-SNAPSHOT runtime produced in /Users/jdehlinger/Desktop/example/project/target/resolution-cache/reports/default-example-build-runtime.xml
-[debug] 	report for default#example-build;0.1-SNAPSHOT test produced in /Users/jdehlinger/Desktop/example/project/target/resolution-cache/reports/default-example-build-test.xml
-[debug] 	report for default#example-build;0.1-SNAPSHOT provided produced in /Users/jdehlinger/Desktop/example/project/target/resolution-cache/reports/default-example-build-provided.xml
-[debug] 	report for default#example-build;0.1-SNAPSHOT optional produced in /Users/jdehlinger/Desktop/example/project/target/resolution-cache/reports/default-example-build-optional.xml
-[debug] 	report for default#example-build;0.1-SNAPSHOT compile-internal produced in /Users/jdehlinger/Desktop/example/project/target/resolution-cache/reports/default-example-build-compile-internal.xml
-[debug] 	report for default#example-build;0.1-SNAPSHOT runtime-internal produced in /Users/jdehlinger/Desktop/example/project/target/resolution-cache/reports/default-example-build-runtime-internal.xml
-[debug] 	report for default#example-build;0.1-SNAPSHOT test-internal produced in /Users/jdehlinger/Desktop/example/project/target/resolution-cache/reports/default-example-build-test-internal.xml
-[debug] 	report for default#example-build;0.1-SNAPSHOT plugin produced in /Users/jdehlinger/Desktop/example/project/target/resolution-cache/reports/default-example-build-plugin.xml
-[debug] 	report for default#example-build;0.1-SNAPSHOT sources produced in /Users/jdehlinger/Desktop/example/project/target/resolution-cache/reports/default-example-build-sources.xml
-[debug] 	report for default#example-build;0.1-SNAPSHOT docs produced in /Users/jdehlinger/Desktop/example/project/target/resolution-cache/reports/default-example-build-docs.xml
-[debug] 	report for default#example-build;0.1-SNAPSHOT pom produced in /Users/jdehlinger/Desktop/example/project/target/resolution-cache/reports/default-example-build-pom.xml
-[debug] 	report for default#example-build;0.1-SNAPSHOT scala-tool produced in /Users/jdehlinger/Desktop/example/project/target/resolution-cache/reports/default-example-build-scala-tool.xml
-[debug] 	resolve done (3048ms resolve - 179ms download)
+[debug] :: resolution report :: resolve 12422ms :: artifacts dl 5303ms
+[debug] 	report for default#example-assignment-build;0.1-SNAPSHOT compile produced in /Users/jdehling/Documents/My Programming/Scala/coursera-funprog-scala/example-assignment/project/target/resolution-cache/reports/default-example-assignment-build-compile.xml
+[debug] 	report for default#example-assignment-build;0.1-SNAPSHOT runtime produced in /Users/jdehling/Documents/My Programming/Scala/coursera-funprog-scala/example-assignment/project/target/resolution-cache/reports/default-example-assignment-build-runtime.xml
+[debug] 	report for default#example-assignment-build;0.1-SNAPSHOT test produced in /Users/jdehling/Documents/My Programming/Scala/coursera-funprog-scala/example-assignment/project/target/resolution-cache/reports/default-example-assignment-build-test.xml
+[debug] 	report for default#example-assignment-build;0.1-SNAPSHOT provided produced in /Users/jdehling/Documents/My Programming/Scala/coursera-funprog-scala/example-assignment/project/target/resolution-cache/reports/default-example-assignment-build-provided.xml
+[debug] 	report for default#example-assignment-build;0.1-SNAPSHOT optional produced in /Users/jdehling/Documents/My Programming/Scala/coursera-funprog-scala/example-assignment/project/target/resolution-cache/reports/default-example-assignment-build-optional.xml
+[debug] 	report for default#example-assignment-build;0.1-SNAPSHOT compile-internal produced in /Users/jdehling/Documents/My Programming/Scala/coursera-funprog-scala/example-assignment/project/target/resolution-cache/reports/default-example-assignment-build-compile-internal.xml
+[debug] 	report for default#example-assignment-build;0.1-SNAPSHOT runtime-internal produced in /Users/jdehling/Documents/My Programming/Scala/coursera-funprog-scala/example-assignment/project/target/resolution-cache/reports/default-example-assignment-build-runtime-internal.xml
+[debug] 	report for default#example-assignment-build;0.1-SNAPSHOT test-internal produced in /Users/jdehling/Documents/My Programming/Scala/coursera-funprog-scala/example-assignment/project/target/resolution-cache/reports/default-example-assignment-build-test-internal.xml
+[debug] 	report for default#example-assignment-build;0.1-SNAPSHOT plugin produced in /Users/jdehling/Documents/My Programming/Scala/coursera-funprog-scala/example-assignment/project/target/resolution-cache/reports/default-example-assignment-build-plugin.xml
+[debug] 	report for default#example-assignment-build;0.1-SNAPSHOT sources produced in /Users/jdehling/Documents/My Programming/Scala/coursera-funprog-scala/example-assignment/project/target/resolution-cache/reports/default-example-assignment-build-sources.xml
+[debug] 	report for default#example-assignment-build;0.1-SNAPSHOT docs produced in /Users/jdehling/Documents/My Programming/Scala/coursera-funprog-scala/example-assignment/project/target/resolution-cache/reports/default-example-assignment-build-docs.xml
+[debug] 	report for default#example-assignment-build;0.1-SNAPSHOT pom produced in /Users/jdehling/Documents/My Programming/Scala/coursera-funprog-scala/example-assignment/project/target/resolution-cache/reports/default-example-assignment-build-pom.xml
+[debug] 	report for default#example-assignment-build;0.1-SNAPSHOT scala-tool produced in /Users/jdehling/Documents/My Programming/Scala/coursera-funprog-scala/example-assignment/project/target/resolution-cache/reports/default-example-assignment-build-scala-tool.xml
+[debug] 	resolve done (12422ms resolve - 5303ms download)
 [info] Done updating.
